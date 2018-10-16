@@ -1,0 +1,51 @@
+
+
+npm install --save express mongoose body-parser
+npm install -g nodemon
+nodemon book.js
+
+bookuser/Welcome1
+customeruser/welcome1
+
+{"title": "book of sea",
+
+"author": "raghu",
+
+"numberpages":500,
+
+"publisher":"TMH"
+}
+
+http://localhost:4545/book
+
+http://localhost:4545/books
+http://localhost:4545/book/5bc236177b0a4f26640d95e4
+http://localhost:4545/book/5bc236877b0a4f26640d95e5	--delete
+
+
+http://localhost:5050/customer
+http://localhost:5050/customers
+
+{"name": "raghu",
+
+"age": 10,
+
+"address":"pune"
+
+
+}
+
+
+npm install --save express mongoose body-parser request
+npm install --save axios
+
+localhost:7777/order
+
+{
+"customerid": "5bc2e4ae81c7e62eb89b4ac2",
+"bookid": "5bc236177b0a4f26640d95e4",
+"initialdate":"2018-06-24",
+"deliverydate":"2018-06-30"
+}
+
+npm install --save express body-parser mongoose  morgan   http-errors
